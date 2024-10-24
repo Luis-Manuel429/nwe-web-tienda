@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    padding: 20px 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+#destacados .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 50%;
+}
+
+#destacados {
+	background-color: #48AAAD;
+	padding: 2px;
+}
+
+#ofertas .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 33.3%;
+}
+
+#ofertas {
+	background-color: #FFDB58;
+	padding: 2px;
+}
+
+#disponible .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    border: solid 5px coral;
+    background-color: white;
+    width: 25%;
+}
+
+#disponible {
+	background-color: #FA86C4;
+	padding: 2px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+	border-top: 2px solid black;
+    color: black;
+	margin: 20px;
+}
